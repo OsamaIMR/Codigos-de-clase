@@ -1,0 +1,6 @@
+fun main() {
+    print("HELLOUPIICSA")
+    print("Cortes Perez Jonathan Nathiel")
+    println("Progamacion Movil")
+    println("6NV61")    
+}
