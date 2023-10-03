@@ -1,0 +1,14 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main(){
+    val base = 20f
+    val altura = 4f
+    val area = areaRectangulo(base,altura)
+    println("el área del rectángulo es $area")
+}
+
+fun areaRectangulo(base: Float, altura: Float):Float{
+    return base*altura
+}
