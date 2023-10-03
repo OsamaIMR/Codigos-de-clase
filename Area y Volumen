@@ -7,8 +7,14 @@ fun main(){
     val altura = 4f
     val area = areaRectangulo(base,altura)
     println("el área del rectángulo es $area")
+    val ancho = 2f
+    val volumen = volumenPrisma(base,altura,ancho)
+    println("el volumen del prisma es $volumen")
 }
 
 fun areaRectangulo(base: Float, altura: Float):Float{
     return base*altura
+}
+fun volumenPrisma(base: Float, altura: Float, ancho: Float):Float{
+    return areaRectangulo(base,altura)*ancho
 }
